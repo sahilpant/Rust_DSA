@@ -1,0 +1,8 @@
+[package]
+name = "Rust_DSA"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+[target.'cfg(not(target_env = "msvc"))'.dependencies]
+jemallocator = "0.5.4"
