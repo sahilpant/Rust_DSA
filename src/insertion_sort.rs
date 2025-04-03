@@ -29,7 +29,7 @@ mod tests {
     #[test]
     fn test_insertion_sort_pass() {
         // let mut val = vec![9,8,7,6,5,4,3,2,1];
-        let mut val = vec![2,1,3,4,5,6,7,8,9];
+        let mut val = vec![9,8,7,6,5,4,3,2,1];
         let res = insertion_sort(val.clone());
         val.sort();
         assert_eq!(res,val);

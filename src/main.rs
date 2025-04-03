@@ -11,6 +11,8 @@ pub mod bubble_sort;
 pub mod insertion_sort;
 pub mod merge_sort;
 pub mod link_list;
+pub mod example_for_dynamic_dispatch;
+pub mod link_list_2;
 fn main() -> io::Result<()> {
     // println!("Enter the number to find GCD/HCF for::");
     // let mut input  = Vec::new();
